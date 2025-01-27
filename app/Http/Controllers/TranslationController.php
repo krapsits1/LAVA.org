@@ -9,16 +9,18 @@ class TranslationController extends Controller
 {
     public function translateLvToEn()
     {
-        $lvFilePath = resource_path('lang/lv.json');
-        $enFilePath = resource_path('lang/en.json');
+        $lvFilePath = resource_path('lang/lv/messages.php');
+        $enFilePath = resource_path('lang/en/messages.php');
 
+        // Check if the Latvian file exists
         if (!File::exists($lvFilePath)) {
-            return 'Latvian JSON file not found.';
+            return 'Latvian messages.php file not found.';
         }
 
-        $lvTranslations = json_decode(File::get($lvFilePath), true);
-        if (!$lvTranslations) {
-            return 'Invalid JSON format in lv.json.';
+        // Include the Latvian file to get its translations
+        $lvTranslations = include $lvFilePath;
+        if (!is_array($lvTranslations)) {
+            return 'Invalid PHP array format in messages.php.';
         }
 
         $translator = new GoogleTranslate('en'); // Target language
@@ -26,15 +28,27 @@ class TranslationController extends Controller
 
         $enTranslations = [];
         foreach ($lvTranslations as $key => $value) {
+
+            if ($key === 'lava') {
+                $enTranslations[$key] = $value; // Skip translation for 'lava'
+                continue;
+            }
+            
             try {
+                // Translate the value from Latvian to English
                 $enTranslations[$key] = $translator->translate($value);
-            } catch (Exception $e) {
-                $enTranslations[$key] = $value; // Fallback
+            } catch (\Exception $e) {
+                // Fallback to original value in case of an error
+                $enTranslations[$key] = $value;
             }
         }
 
-        File::put($enFilePath, json_encode($enTranslations, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        // Format the translated data as a PHP array
+        $phpContent = "<?php\n\nreturn " . var_export($enTranslations, true) . ";\n";
 
-        return 'Translation completed! Check the en.json file.';
+        // Save the translated data to the English messages.php file
+        File::put($enFilePath, $phpContent);
+
+        return 'Translation completed! Check the en/messages.php file.';
     }
 }
