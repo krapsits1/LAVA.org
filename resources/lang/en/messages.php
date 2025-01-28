@@ -10,7 +10,7 @@ return array (
   'publications' => 'Publications',
   'join' => 'Join',
   'contact' => 'Contacts',
-  'lava' => 'Latvian Association of Blood Vessels',
+  'lava' => 'Latvian Association of Vascular Access',
   'lava_description' => 'Latvian Vascular Association (Lava) is a medical organization of medical professionals that combines 
                             anesthesiologists, intensive care nurses and other professionals to improve vascular access care 
                             In Latvia. Lava works to introduce innovative methods, reduce the risks of complications and provide 
