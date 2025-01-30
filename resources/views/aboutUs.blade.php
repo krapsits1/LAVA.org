@@ -8,7 +8,7 @@
         @include('layouts.lang')
         
         <main style="min-height: 80vh;">
-            <h1 class="d-flex ms-3 mt-3 justify-content-center">About Us</h1>
+            <h1 class="d-flex ms-3 pt-3 justify-content-center">About Us</h1>
 
             <div class="container">
                 <div class="row">
@@ -52,9 +52,7 @@
                 </div>
             </div>
         </main>
-        
-        
-
+    
         @include('layouts.footer')
     </body>
 </html>

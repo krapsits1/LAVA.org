@@ -6,13 +6,8 @@
     <body>
         @include('layouts.navbar')
 
-        {{-- <div class="container-fluid justify-content-center">
-            <h3 class="text-center">{{__('messages.title')}}</h3>
-        </div> --}}
         @include('layouts.lang')
-        {{-- <div class="container-fluid justify-content-center">
-            <h3 class="text-center p-3">Latvian Association of Vascular Access</h3>
-        </div> --}}
+
         <main style="min-height: 80vh;">
             <div class="d-flex flex-column">
                 <div class="container mt-5">

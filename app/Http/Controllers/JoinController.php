@@ -3,16 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\JoinUsMail;
 
 class JoinController extends Controller
 {
     public function join()
     {
         return view('join');
-    }
+    }   
 
+    
     public function sendMessage(Request $request)
     {
+        // Validate input
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email',
@@ -20,13 +24,18 @@ class JoinController extends Controller
             'message' => 'required|string',
         ]);
 
-        // Send email
-        Mail::raw($validatedData['message'], function ($mail) use ($validatedData) {
-            $mail->to('emilsvetra@gmail.com') // Replace with the recipient's email
-                 ->from($validatedData['email'], $validatedData['name'])
-                 ->subject($validatedData['subject']);
-        });
+        // Prepare email details
+        $details = [
+            'name' => $validatedData['name'],
+            'email' => $validatedData['email'],
+            'subject' => $validatedData['subject'],
+            'message' => $validatedData['message'],
+        ];
 
+        // Send email
+        Mail::to('emilsvetra@gmail.com')->send(new JoinUsMail($details));
+
+        // Redirect back with success message
         return back()->with('success', 'Ziņa veiksmīgi nosūtīta!');
     }
 }

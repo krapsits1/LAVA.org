@@ -11,14 +11,14 @@
             @if(session('success'))
                 <div class="alert alert-success text-center">
                     {{ session('success') }}
-                </div>
+                </div>  
             @endif
-            <div class="container mt-5">
+            <div class="container pt-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">
                         <div class="card shadow-lg border-0">
-                            <div class="card-body p-4">
-                                <h2 class="text-center mb-4">Pievienojies Mums</h2>
+                            <div class="card-body pt-4">
+                                <h2 class="text-center mb-4">Uzraksti mums ziņu!</h2>
                                 <p class="text-center text-muted">Aizpildiet formu, lai nosūtītu mums ziņu</p>
             
                                 <form action="{{route('sendMessage')}}" method="POST">
@@ -50,19 +50,18 @@
             
                                     <!-- Submit Button -->
                                     <div class="d-grid">
-                                        <button type="submit" class="btn btn-danger btn-lg">
+                                        <button type="submit" class="btn text-white btn-lg" style="background-color: #800020; t">
                                             Nosūtīt
                                         </button>
                                     </div>
-            
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </main>
+    
         @include('layouts.footer')
     </body>
 </html>
