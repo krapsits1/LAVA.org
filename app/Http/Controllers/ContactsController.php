@@ -8,6 +8,7 @@ class ContactsController extends Controller
 {
     public function contact()
     {
-        return view('contact');
+        return view('contact',['googleApiKey' => env('GOOGLE_MAPS_API_KEY')]);
     }
 }
+        
