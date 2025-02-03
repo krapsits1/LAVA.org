@@ -11,31 +11,39 @@
                 <div class="row">
                     <!-- Contact Information Column -->
                     <div class="col-md-6">
-                        <h2>api: {{$googleApiKey}}</h2>
-
-                        <h2>Contact Information</h2>
-                        <p><strong>Company Name:</strong> LAVA (Latvijas Asinsvadu Asociācija)</p>
-                        <p><strong>Address:</strong> Riga, Latvia</p>
-                        <p><strong>Email:</strong> info@lava.lv</p>
-                        <p><strong>Phone:</strong> +371 123 4567</p>
-                        <p><strong>Business Hours:</strong> Mon - Fri, 9:00 AM - 5:00 PM</p>
+                        <h4>{{ __("messages.contact_information") }}</h4>
+                        <p>
+                            <strong>{{ __("messages.contact_name_label") }}</strong>
+                            {{ __("messages.contact_name_value") }}
+                        </p>
+                        <p>
+                            <strong>{{ __("messages.contact_address_label") }}</strong>
+                            {{ __("messages.contact_address_value") }}
+                        </p>
+                        <p>
+                            <strong>{{ __("messages.contact_email_label") }}</strong>
+                            {{ __("messages.contact_email_value") }}
+                        </p>
+                        <p>
+                            <strong>{{ __("messages.contact_phone_label") }}</strong>
+                            {{ __("messages.contact_phone_value") }}
+                        </p>
                     </div>
-        
+            
                     <!-- Google Map Column -->
                     <div class="col-md-6">
-                        <div id="map" style = "height: 400px;"></div>                     
+                        <div id="map" style="height: 400px;"></div>                     
                     </div>
-
                 </div>
             </div>
+            
 
         </main>
         @include('layouts.footer')
     </body>
     
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXuPWj04KtJH2ZaBHdOawfmtwH3nf_PRc&callback=initMap&v=weekly&libraries=marker"
-        defer
+        src="https://maps.googleapis.com/maps/api/js?key={{$googleApiKey}}&v=weekly&libraries=marker"
     ></script>
     <script src="{{asset('js/map.js')}}" ></script>
 </html>

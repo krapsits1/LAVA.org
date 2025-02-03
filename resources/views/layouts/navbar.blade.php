@@ -24,13 +24,13 @@
                 <a class="nav-link" href={{('news')}}>{{ __('messages.news') }}</a>
             </li>
             <li class="nav-item ms-3 dropdown">
-                <a class="nav-link dropdown-toggle" {{route('info')}} role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     {{ __('messages.info') }}
                 </a>
                 <div class="dropdown-menu me-3" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">{{ __('messages.instructions') }}</a>
-                  <a class="dropdown-item" href="#">{{ __('messages.resources') }}</a>
-                  <a class="dropdown-item" href="#">{{ __('messages.publications') }}</a>
+                  <a class="dropdown-item" href="{{route('instructions')}}">{{ __('messages.instructions') }}</a>
+                  <a class="dropdown-item" href="{{route('resources')}}">{{ __('messages.resources') }}</a>
+                  <a class="dropdown-item" href="{{route('publications')}}">{{ __('messages.publications') }}</a>
                 </div>
             </li>       
             <li class="nav-item ms-3">
