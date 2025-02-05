@@ -5,8 +5,12 @@ body{
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease-in-out;
 }   
-
+body.loaded {
+    opacity: 1;
+}
 nav{
     background-color: #800020;
     color: white;
@@ -35,3 +39,22 @@ footer{
     transition: filter 0.3s ease-in-out;
 }
     
+#carouselExample .carousel-item img {
+    border-radius: 10px;
+}
+
+#smallScreenCarousel2 .carousel-item img {
+    border-radius: 10px;
+}
+
+#smallScreenCarousel .carousel-item img {
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #800020;
+    margin-bottom: 20px;
+}
+

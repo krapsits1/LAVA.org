@@ -10,8 +10,8 @@ return array (
   'publications' => 'Publication',
   'join' => 'Join',
   'contact' => 'Contacts',
-  'lava' => 'Latvijas AsinsVadu Asociācija',
-  'lava_description' => 'Latvian Vascular Association (Lava) is a medical organization of medical professionals that combines 
+  'lava' => 'Latvian association of vascular access',
+  'lava_description' => 'Latvian association of vascular access (LAVA) is a medical organization of medical professionals that combines 
                             anesthesiologists, intensive care nurses and other professionals to improve vascular access care 
                             In Latvia. Lava works to introduce innovative methods, reduce the risks of complications and provide 
                             Effective vascular access to patients, as well as promoting specialist training and knowledge transfer. Lava 
@@ -44,4 +44,28 @@ return array (
   'about_team_linda_role' => 'LAVA Board Member, Anesthesia and Intensive Care Nurse.',
   'about_team_ieva_name'  => 'Ieva Zariņa',
   'about_team_ieva_role'  => 'LAVA Board Member, Anesthesia and Intensive Care Nurse.',
+  'coming_soon'        => 'Coming soon...',
+  'coming_soon_text'   => 'We are working hard to bring you this page. Please check back later!',
+  'go_to_homepage'     => 'Go to Homepage',
+  'contact_header'      => 'Send us a message!',
+  'contact_subtext'     => 'Fill out the form to send us a message',
+  'name_label'          => 'Name',
+  'name_placeholder'    => 'Enter your name',
+  'email_label'         => 'Email',
+  'email_placeholder'   => 'Enter your email',
+  'subject_label'       => 'Subject',
+  'subject_placeholder' => 'Message subject',
+  'message_label'       => 'Message',
+  'message_placeholder' => 'Enter your message',
+  'submit_button'       => 'Send',
+  'faq_title'            => 'FAQ',
+  'faq_description'      => 'Find answers to the most commonly asked questions about our organization and services.',
+  'faq_item1_question'   => "What is LAVA's mission?",
+  'faq_item1_answer'     => "LAVA's mission is to provide patients in Latvia with the highest quality vascular access care while promoting education, research, and innovation in this field.",
+  'faq_item2_question'   => 'How can I join LAVA?',
+  'faq_item2_answer'     => 'You can join LAVA by clicking on the "Join Us" section on our website and filling out the membership form. Once approved, you’ll be part of our community.',
+  'faq_item3_question'   => 'What kind of training does LAVA offer?',
+  'faq_item3_answer'     => 'LAVA offers a variety of training programs, including workshops, seminars, and hands-on sessions focusing on vascular access techniques and patient care practices.',
+  'join_lava_title'        => 'Join the LAVA Association',
+  'join_lava_description'  => 'Become a part of a passionate community of healthcare professionals, dedicated to improving vascular access care in Latvia. Together, we advance education, innovation, and patient well-being.',  
 );

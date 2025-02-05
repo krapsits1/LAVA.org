@@ -5,7 +5,11 @@
         </a>
     </div>
     <p class="mb-3 mb-md-0 text-white">© 2024 Company, Inc</p>
-    <a href="https://www.facebook.com/people/LAVA-Latvijas-AsinsVadu-Asoci%C4%81cija/61566301665761/" target="_blank" class="nav-link me-3" style="width: 80px; text-align: center;">
-        <i class="bi bi-facebook fs-2"></i>
-    </a>
+    <div class ="icons">
+        <a href="https://www.facebook.com/people/LAVA-Latvijas-AsinsVadu-Asoci%C4%81cija/61566301665761/" target="_blank" class="nav-link me-3" style="width: 80px; text-align: center;">
+            <i class="bi bi-facebook fs-2"></i>
+        </a>
+        
+    </div>
+    <script src="{{asset('js/script.js')}}" ></script>
 </footer>

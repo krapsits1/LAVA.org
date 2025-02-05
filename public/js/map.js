@@ -18,6 +18,7 @@ async function initMap() {
     map,
     position: { lat: 56.92210700748703, lng: 24.087976439991493 },
     title: "Googleplex",
+    
 }); 
 }
 

@@ -3,6 +3,7 @@
 <head>
     @include('layouts.head')
 </head>
+
 <body>
     @include('layouts.navbar')
 
@@ -10,7 +11,7 @@
 
     <main style="min-height: 80vh;">
         <div class="d-flex flex-column">
-            <div class="container mt-5">
+            <div class="container mt-5" >
                 <div class="row">
                     <!-- Text Column -->
                     <div class="col-md-6 d-flex">
@@ -44,12 +45,13 @@
                             </div>
 
                             <h1 class="pt-2">{{__('messages.lava_goals')}}</h1>
-                            <ul>
-                                <li>{{__('messages.lava_goals_li_1')}}</li>
-                                <li>{{__('messages.lava_goals_li_2')}}</li>
-                                <li>{{__('messages.lava_goals_li_3')}}</li>
-                                <li>{{__('messages.lava_goals_li_4')}}</li>
+                            <ul style="list-style: none; padding-left:0;" >
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_1')}}</li>
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_2')}}</li>
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_3')}}</li>
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_4')}}</li>
                             </ul>
+                            
 
                             {{-- Carousel 2 for small screens --}}
                             <div class="d-block d-md-none">
@@ -77,12 +79,16 @@
                             </div>
 
                             <h1 class="pt-2">{{__('messages.lava_offer')}}</h1>
-                            <ul>
-                                <li>{{__('messages.lava_offer_li_1')}}</li>
-                                <li>{{__('messages.lava_offer_li_2')}}</li>
-                                <li>{{__('messages.lava_offer_li_3')}} </li>
-                                <li>{{__('messages.lava_offer_li_4')}}</li>
+
+                            <ul style="list-style: none; padding-left:0;" >
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_offer_li_1')}}</li>
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_offer_li_2')}}</li>
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_offer_li_3')}}</li>
+                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_offer_li_4')}}</li>
                             </ul>
+                            <a href="{{ route('join') }}" class="btn btn-lg text-white" style="background-color: #800020; border-radius: 10px; font-weight: bold; padding: 10px 20px; display: inline-block; text-decoration: none; transition: background-color 0.3s;">
+                                {{__('messages.join')}}   
+                            </a>
                         </div>
                     </div>
                 
