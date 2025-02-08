@@ -129,13 +129,7 @@ This application uses **session cookies** (`laravel_session`, `XSRF-TOKEN`) and 
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
 ## 👨‍💻 Contributors
 - **Emīls Vētra** (Developer)
 
-For any issues or contributions, feel free to submit a pull request! 🚀
 
