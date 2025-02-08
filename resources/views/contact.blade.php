@@ -32,7 +32,7 @@
                             <strong style="font-weight: bold;">{{ __("messages.contact_phone_label") }}</strong>
                             <span style="font-size: 1rem; color: #555;">{{ __("messages.contact_phone_value") }}</span>
                         </p>
-                        <a href={{{route('join')}}} class="btn text-white mb-3" style="background-color: #800020; border-radius: 10px; padding: 10px 20px; margin-top: 20px; text-decoration: none;">
+                        <a href={{{route('join')}}} class="btn text-white mb-3" style="background-color: #800020; border-radius: 10px; font-weight: bold; padding: 10px 20px; display: inline-block; text-decoration: none; transition: background-color 0.3s;">
                             {{ __('messages.contact_header') }}                        
                         </a>
                     </div>

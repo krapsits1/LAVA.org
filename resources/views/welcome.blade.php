@@ -8,7 +8,6 @@
     @include('layouts.navbar')
 
     @include('layouts.lang')
-
     <main style="min-height: 80vh;">
         <div class="d-flex flex-column">
             <div class="container mt-5" >

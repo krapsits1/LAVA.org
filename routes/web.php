@@ -14,8 +14,9 @@ Route::get('/resources', [App\Http\Controllers\ResourcesController::class, 'reso
 Route::get('/publications', [App\Http\Controllers\PublicationsController::class, 'publications'])->name('publications');
 
 Route::get('/join', [App\Http\Controllers\JoinController::class, 'join'])->name('join');
-Route::post('/join/send', [App\Http\Controllers\JoinController::class, 'sendMessage'])->name('sendMessage');
+Route::post('/join/send', [App\Http\Controllers\JoinController::class, 'sendMessage'])->name('sendMessage')->middleware('throttle:5,1');
 
+Route::get('/privacy', [App\Http\Controllers\PrivacyController::class, 'privacy'])->name('privacy');    
 Route::get('/tulkot', [App\Http\Controllers\TranslationController::class, 'translateLvToEn']);
 Route::get('/switch-language/{lang}', [LanguageController::class, 'switchLanguage'])->name('switch-language');
 

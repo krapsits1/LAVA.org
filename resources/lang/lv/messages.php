@@ -66,6 +66,43 @@ return [
     'faq_item2_answer'     => 'Jūs varat pievienoties LAVA, noklikšķinot uz "Join Us" sadaļas mūsu mājaslapā un aizpildot biedru pieteikuma formu. Kad pieteikums tiks apstiprināts, jūs kļūsiet par mūsu kopienas daļu.',
     'faq_item3_question'   => 'Kāda veida apmācības LAVA piedāvā?',
     'faq_item3_answer'     => 'LAVA piedāvā dažādas apmācību programmas, ieskaitot darbnīcas, seminārus un praktiskās nodarbības, kas koncentrējas uz asinsvadu piekļuves tehnikām un pacientu aprūpes praksēm.',
-    'join_lava_title'        => 'Pievienojieties LAVA asociācijai',
+    'join_lava_title'        => 'Pievienojieties LAVA asociācijai!',
     'join_lava_description'  => 'Kļūsti par daļu no dedzīgas veselības aprūpes profesionāļu kopienas, kas apņēmības pilni uzlabot asinsvadu piekļuves aprūpi Latvijā. Kopā mēs veicinām izglītību, inovācijas un pacientu labklājību.',
+    'cookies_info'   => 'Šī mājaslapa izmanto sīkdatnes, lai nodrošinātu jums vislabāko pieredzi. Turpinot, jūs piekrītat mūsu',
+    'privacy_policy' => 'Privātuma politika',
+    'cookie_title' => 'Sīkdatņu Politika',    
+    'modal_close' => 'Aizvērt',
+    'privacy_title'               => 'Privātuma politika',
+    'privacy_effective_date'      => 'Stāšanās spēkā:',
+    
+    'privacy_section1_title'      => '1. Informācija, ko mēs vācam',
+    'privacy_section1_description'=> 'Mēs vācam tikai ierobežotus personas datus, kas nepieciešami mājaslapas darbībai:',
+    'privacy_section1_item1'      => 'Būtiskas sīkdatnes: <strong>laravel_session</strong> (lietotāju sesijām), <strong>XSRF-TOKEN</strong> (drošībai).',
+    'privacy_section1_item2'      => 'Kontakta formas iesniegumi: Vārds, e-pasts un ziņa.',
+    
+    'privacy_section2_title'      => '2. Kāpēc mēs vācam šo informāciju',
+    'privacy_section2_item1'      => 'Lai nodrošinātu mājaslapas darbību (sesijas sīkdatnes).',
+    'privacy_section2_item2'      => 'Lai nodrošinātu drošību (CSRF aizsardzība ar `XSRF-TOKEN`).',
+    'privacy_section2_item3'      => 'Lai lietotāji varētu sazināties ar mums, izmantojot kontaktformas.',
+    
+    'privacy_section3_title'      => '3. Kā mēs glabājam un aizsargājam jūsu datus',
+    'privacy_section3_description'=> 'Mēs ieviešam atbilstošus drošības pasākumus:',
+    'privacy_section3_item1'      => 'Kontaktformas ziņas tiek nosūtītas pa e-pastu, bet <strong>netiek glabātas mūsu serveros</strong>.',
+    'privacy_section3_item2'      => 'Sesijas sīkdatnes ir pagaidu un izbeidzas, kad aizverat pārlūkprogrammu.',
+    'privacy_section3_item3'      => 'Mēs neizmantojam izsekošanas sīkdatnes, analītiku vai trešo pušu reklāmdevējus.',
+    
+    'privacy_section4_title'      => '4. Vai mēs kopīgojam jūsu datus?',
+    'privacy_section4_description'=> 'Nē, mēs nepārdodam, neapmaiņā vai kopīgojam jūsu personas datus ar trešajām pusēm.',
+    
+    'privacy_section5_title'      => '5. Jūsu tiesības',
+    'privacy_section5_description'=> 'Ja jūs atrodaties ES (GDPR) vai Kalifornijā (CCPA), jums ir tiesības:',
+    'privacy_section5_item1'      => 'Pieprasīt piekļuvi jebkādiem personas datiem, kas mums var būt.',
+    'privacy_section5_item2'      => 'Pieprasīt dzēst jebkādus ar jums saistītus datus.',
+    'privacy_section5_item3'      => 'Atteikties no jebkāda veida iesniegšanas (neizmantojot kontaktformu).',
+    
+    'privacy_section6_title'      => '6. Sazinieties ar mums',
+    'privacy_section6_description'=> 'Ja jums ir kādi jautājumi par šo Privātuma politiku, varat sazināties ar mums pa:',
+    'privacy_contact_email_label' => 'E-pasts:',
+    'privacy_last_updated'        => 'Pēdējoreiz atjaunots:',
+
 ];
