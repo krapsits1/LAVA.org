@@ -16,8 +16,14 @@
                     <div class="col-md-6 d-flex">
                         <div>
                             <h1>{{ __('messages.lava') }}</h1>
-                            <p>{{__('messages.lava_description')}}</p>
-                            
+                            <p> <span class = "fw-bold">{{__('messages.lava_description')}}</span>{{__('messages.lava_description2')}}</p>
+
+                            <h1>{{ __('messages.lava_merki') }}</h1>
+                            <p> {{__('messages.lava_merki_li_1')}}<span class = "fw-bold">{{__('messages.lava_merki_li_2')}}</span>{{__('messages.lava_merki_li_3')}}</p>
+                            <br>
+                            <p> {{__('messages.lava_merki2')}}</p>
+                            <br>
+                            <p> {{__('messages.lava_merki3_li_1')}}<span class = "fw-bold">{{__('messages.lava_merki3_li_2')}}</span>{{__('messages.lava_merki3_li_3')}}</p>
                             {{-- Carousel for small screens --}}
                             <div class="d-block d-md-none">
                                 <div id="smallScreenCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -48,7 +54,6 @@
                                 <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_1')}}</li>
                                 <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_2')}}</li>
                                 <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_3')}}</li>
-                                <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_goals_li_4')}}</li>
                             </ul>
                             
 
@@ -85,12 +90,15 @@
                                 <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_offer_li_3')}}</li>
                                 <li><i class="bi bi-check-circle" style="color: #800020;"></i> {{__('messages.lava_offer_li_4')}}</li>
                             </ul>
+                            <p> <span class = "fw-bold">{{__('messages.par_biedru')}}</span>{{__('messages.par_biedru2')}}</p>
+
                             <a href="{{ route('join') }}" class="btn btn-lg text-white" style="background-color: #800020; border-radius: 10px; font-weight: bold; padding: 10px 20px; display: inline-block; text-decoration: none; transition: background-color 0.3s;">
                                 {{__('messages.join')}}   
                             </a>
                         </div>
                     </div>
-                
+                    
+                    
 
                     <!-- Carousel Column -->
                     <div class="pt-2 col-md-6 d-none d-md-flex align-items-start">

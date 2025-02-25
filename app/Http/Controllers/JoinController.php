@@ -33,7 +33,7 @@ class JoinController extends Controller
         ];
 
         // Send email
-        Mail::to('emilsvetra@gmail.com')->send(new JoinUsMail($details));
+        Mail::to('lava.latvija@gmail.com')->send(new JoinUsMail($details));
 
         // Redirect back with success message
         return back()->with('success', 'Ziņa veiksmīgi nosūtīta!');

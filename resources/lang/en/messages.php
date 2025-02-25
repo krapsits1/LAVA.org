@@ -10,23 +10,24 @@ return array (
   'publications' => 'Publication',
   'join' => 'Join',
   'contact' => 'Contacts',
-  'lava' => 'Latvian association of vascular access',
-  'lava_description' => 'Latvian association of vascular access (LAVA) is a medical organization of medical professionals that combines 
-                            anesthesiologists, intensive care nurses and other professionals to improve vascular access care 
-                            In Latvia. Lava works to introduce innovative methods, reduce the risks of complications and provide 
-                            Effective vascular access to patients, as well as promoting specialist training and knowledge transfer. Lava 
-                            actively involved in projects and initiatives to improve patient experience and promote research -based 
-                            care for vascular access. Join us on your way to better and safer patient care!',
-  'lava_goals' => 'Operational targets',
-  'lava_goals_li_1' => 'Educate and inform medical professionals and patients about the best practices of vascular approach on devices.',
-  'lava_goals_li_2' => 'Provide access to the latest guidelines and studies in the field of intravenous therapy.',
-  'lava_goals_li_3' => 'Promote safe and effective patient care by reducing the risks of complications.',
-  'lava_goals_li_4' => 'Support professional growth and cooperation in the medical community.',
+  'lava' => 'Latvian Association of Vascular Access',
+  'lava_description' => 'Latvian Association of Vascular Access (LAVA) ',
+  'lava_description2' => 'is a professional, public non-profit organization that brings together healthcare professionals—nurses, doctors, and other specialists interested in vascular access devices and their care. The aim of the association is to promote access to knowledge and the implementation of best practices in patient care, reducing the risk of complications, pain, and discomfort associated with intravenous therapy.',
+  
+  'lava_goals' => 'What we do:',
+  'lava_goals_li_1' => 'Educate and inform medical professionals and patients about best practices and vascular access devices',
+  'lava_goals_li_2' => 'Promote safe and effective patient care to reduce the risk of complications.',
+  'lava_goals_li_3' => 'Support professional development and collaboration within the healthcare community.',
+
   'lava_offer' => 'We offer',
-  'lava_offer_li_1' => 'Useful resources and information on the practical aspects of intravenous therapy.',
-  'lava_offer_li_2' => 'Regularly updated guidelines and research results to help you provide the best patient care.',
-  'lava_offer_li_3' => 'Interactive training and seminars where you can participate and improve your knowledge.',
-  'lava_offer_li_4' => 'Stories and experiences from professionals and patients who share their success stories and challenges.',
+  'lava_offer_li_1' => 'Useful resources and information on the practical aspects of administering intravenous therapy.',
+  'lava_offer_li_2' => 'Compile international guidelines and research findings to help you provide the best patient care.',
+  'lava_offer_li_3' => 'Training and seminars in which you can participate to enhance your knowledge.',
+  'lava_offer_li_4' => 'Insights from professionals and patients who share their experiences and challenges.',
+
+  'par_biedru' => "Any healthcare professional whose work is related to the insertion, monitoring, care, use, and research of vascular access devices can become a member of LAVA.  ",
+  'par_biedru2' => "By becoming a member, the healthcare professional commits to applying the safest vascular insertion and care principles for the patient and sharing available information within their practice.",
+
   'contact_information' => 'Contact information',
   'contact_name_label' => 'Name:',
   'contact_name_value' => 'Lava (Latvian Vascular Association)',
@@ -36,14 +37,23 @@ return array (
   'contact_email_value' => 'lava.latvija@gmail.com',
   'contact_phone_label' => 'Phone:',
   'contact_phone_value' => '+371 123 4567',
+
   'about_us_title'        => 'About Us',
-  'about_mission'         => "LAVA's mission is to provide patients in Latvia with the highest quality vascular access care, while promoting education, research, and innovation in this field.",
-  'about_team_ivars_name' => 'Dr. Ivars Vegeris',
-  'about_team_ivars_role' => 'Chairman of the LAVA Board, Anesthesiologist and Intensivist with specialized expertise in pediatric care and cardiac anesthesia.',
-  'about_team_linda_name' => 'Linda Frīdenberga',
-  'about_team_linda_role' => 'LAVA Board Member, Anesthesia and Intensive Care Nurse.',
-  'about_team_ieva_name'  => 'Ieva Zariņa',
-  'about_team_ieva_role'  => 'LAVA Board Member, Anesthesia and Intensive Care Nurse.',
+  'about_mission'         => "LAVA's mission ",
+  'about_mission2'        => "is to provide patients in Latvia with the best vascular access device insertion and care, as well as safe intravenous therapy, by promoting education, evidence-based practice, research, and innovation in this field.",
+  
+  'about_team_ivars_name' => 'Dr. Ivars Veģeris - ',
+  'about_team_ivars_role' => "LAVA's board chairman, ",
+  'about_team_ivars_role2' => 'an anesthesiologist-reanimatologist with extensive experience in the care of pediatric patients.',
+
+  'about_team_linda_name' => 'Linda Frīdenberga - ',
+  'about_team_linda_role' => "LAVA's board member, ",
+  'about_team_linda_role2' => "an anesthesia and intensive care nurse with extensive experience in the care of pediatric patients, as well as in the development and management of care processes.",
+
+  'about_team_ieva_name'  => 'Ieva Zariņa - ',
+  'about_team_ieva_role'  =>  "LAVA's board member, ",
+  'about_team_ieva_role2'  => "an anesthesia and intensive care nurse with extensive experience in the care of critically ill children.",
+
   'coming_soon'        => 'Coming soon...',
   'coming_soon_text'   => 'We are working hard to bring you this page. Please check back later!',
   'go_to_homepage'     => 'Go to Homepage',
@@ -58,19 +68,36 @@ return array (
   'message_label'       => 'Message',
   'message_placeholder' => 'Enter your message',
   'submit_button'       => 'Send',
+
+  
   'faq_title'            => 'FAQ',
-  'faq_description'      => 'Find answers to the most commonly asked questions about our organization and services.',
-  'faq_item1_question'   => "What is LAVA's mission?",
-  'faq_item1_answer'     => "LAVA's mission is to provide patients in Latvia with the highest quality vascular access care while promoting education, research, and innovation in this field.",
-  'faq_item2_question'   => 'How can I join LAVA?',
-  'faq_item2_answer'     => 'You can join LAVA by clicking on the "Join Us" section on our website and filling out the membership form. Once approved, you’ll be part of our community.',
-  'faq_item3_question'   => 'What kind of training does LAVA offer?',
-  'faq_item3_answer'     => 'LAVA offers a variety of training programs, including workshops, seminars, and hands-on sessions focusing on vascular access techniques and patient care practices.',
-  'join_lava_title'        => 'Join the LAVA Association!',
-  'join_lava_description'  => 'Become a part of a passionate community of healthcare professionals, dedicated to improving vascular access care in Latvia. Together, we advance education, innovation, and patient well-being.',
+  'faq_description'      => 'Find answers to frequently asked questions about the LAVA organization and related fields.',
+  'faq_item1_question'   => 'What is the collaboration with the global vascular organization GloVANet and what does it entail?',
+  'faq_item1_answer'     => 'A collaboration agreement has been concluded with the “Global Vascular Access Network (GloVANet)”, which aims to promote international partnerships to develop the vascular access field globally, based on evidence-based approaches and best practices.',
+  'faq_item1_answer2'     => 'The agreement includes:',
+  'faq_item1_answer3'     => 'Promoting social and professional development, cultural exchange, and good governance in the vascular access field.',
+  'faq_item1_answer4'     => 'Developing joint strategies and maintaining collaborative relationships that will be mutually beneficial and align with the priorities of both organizations and the needs of their communities.',
+  'faq_item1_answer5'     => 'Ensuring the benefits of the collaboration for both organizations and the broader vascular care community.',
+  'faq_item1_answer6'     => 'Opportunities to collaborate on specific projects and initiatives.',
+  'faq_item1_answer7'     => 'This agreement affirms the official partnership between GloVANet and LAVA to promote education, innovation, and the implementation of the best international practices in vascular care.',
+
+  'faq_item2_question'   => 'What is WoCoVA?',
+  'faq_item2_answer'     => 'The World Congress of Vascular Access (WoCoVA) is an interdisciplinary and interprofessional organization that promotes the development of science and practice in the field of vascular access worldwide. WoCoVA congresses are major events where healthcare professionals from around the world share the latest research and innovations in the field of vascular access.',
+  'faq_item2_answer2'     => 'WoCoVA is part of the Global Vascular Access Network (GloVANet) and aims to improve vascular access procedures and practices on a global scale. GloVANet/WoCoVA promotes international care standards, unified guidelines, and certification of educational programs to enhance the quality of patient care and understanding of the importance of vascular access. For more information, please visit the GloVANet website.',
+
+  
+  'join_lava_title'        => 'Join',
+  'join_lava_description'  => 'Become part of an enthusiastic community of healthcare professionals committed to improving vascular access insertion, care, and the safety of intravenous therapy in Latvia. Together, we promote education, innovation, and patient well-being.',
+
+  'join_lava_description1'  => 'By becoming a member of LAVA,',
+  'join_lava_description2'  => 'the healthcare professional',
+  'join_lava_description3'  => 'commits to',
+  'join_lava_description4'  => 'applying the safest principles of vascular access insertion and care for the patient, as well as sharing the available information within their practice.',
+
+  
   'cookies_info'   => 'This website uses cookies to ensure you get the best experience. By continuing, you accept our',
   'privacy_policy' => 'Privacy Policy',
-  'cookie_title' => 'Cookie Policy',    
+  'cookies_title' => 'Cookie Policy',    
   'modal_close' => 'Close',
   'privacy_title'               => 'Privacy Policy',
   'privacy_effective_date'      => 'Effective Date:',
@@ -104,4 +131,59 @@ return array (
   'privacy_section6_description'=> 'If you have any questions about this Privacy Policy, you can contact us at:',
   'privacy_contact_email_label' => 'Email:',
   'privacy_last_updated'        => 'Last updated:',
+
+  'lava_merki' => 'LAVA goals',
+  'lava_merki_li_1' => "LAVA's priority is the selection of safe and gentle therapy administration methods that are most 
+                        suitable for the patient, healthcare personnel, and the treatment process, while preserving the ability to ensure effective treatment in the future. ",
+  'lava_merki_li_2' => "One of the association's goals is ",
+  'lava_merki_li_3' => "to promote continuity of care at all stages, including ensuring a smooth transition between different treatment episodes and, where possible, organizing therapy as close as possible to the patient's place of residence.",
+
+  'lava_merki2' => "LAVA identifies and evaluates existing vascular access devices, develops and improves guidelines for their insertion and care, and promotes audit processes in healthcare institutions. The association collaborates with professional organizations to enhance the implementation of standards and develop unified training modules. It actively participates in international cooperation initiatives and fosters the development of new opportunities in Latvia.",
+
+  'lava_merki3_li_1' => "LAVA is Latvia's representative in the international organization ",
+  'lava_merki3_li_2' => 'GloVANet, ',
+  'lava_merki3_li_3' => "which brings together experts in vascular access device care and insertion worldwide. GloVANet promotes the implementation of unified best practice standards, research, and international collaboration, thereby contributing to the highest quality of patient care on a global scale.",
+
+
+
+  'title' => 'News',
+
+  'news1_title' => '22.02.2025 – Linda Frīdenberga will share her findings on the vascular device audit conducted at the Children\'s Clinical University Hospital at the conference “New Developments and Future Solutions in the Profession of Anesthesia and Intensive Care Nursing” organized by LMa AINA.',
+  'news1_link' => 'More information',
+
+  'news2_title' => '14-15.03.2025 – In the RSU professional development program, Dr. Ivars Veģeris and Ansis Ziemelis will provide insights on the topic “Long-term Catheter Insertion”',
+  'news2_link' => 'Download the program',
+
+  'news3_title' => '21.03.2025 – The vascular team instructor at BKUS will conduct a training course on “Extended Peripheral Catheter Insertion under USG control.”',
+  'news3_description' => 'The training is implemented within the framework of the NVD Innovation Laboratory project at the Children’s Clinical University Hospital.',
+
+  'news4_title' => '23-26.05.2025 – NOPHO NOBOS 2025 Annual Meeting in Riga. NOBOS education session. Ivars Vegeris “The right catheter for the right patient” (23.05.2025)',
+  'news4_link' => 'Program',
+
+  'news5_title' => '18-20.09.2025 – “BaltanestIC 2025” 13th International Baltic Congress of Anaesthesiology and Intensive Care. Linda Frīdenberga "The First Year with the VAT (Vascular Access Team)." (19.09.2025.)',
+  'news5_link' => 'More information',
+
+  'news6_title' => '27.10-09.11.2025 – Vascular Access and IV Therapy Excellence Forum, Workshops, and Conference.',
+  'news6_description' => 'In collaboration with LMa, LARA, LU, RSU, PSKUS, TOS, and other interested partners. More information will be provided.',
+
+  'news7_title' => '01.11.2025 – Conference “The Baltic Vascular Access Expert Forum”',
+  'news7_description' => 'Conference participants will include vascular experts from the USA, UK, Poland, Latvia, and the Baltic region. The program and registration details will be updated.',
+
+
+  'resources_title' => 'Resources',
+
+  'resource1_title' => 'The NAVIGATE project: A GloVANet–WoCoVA position statement on the nomenclature for vascular access devices',
+  'resource2_title' => 'European recommendations on the proper indication and use of peripheral venous access devices (the ERPIUP consensus): A WoCoVA project',
+  'resource3_title' => 'Heparin flush vs. normal saline flush to maintain the patency of central venous catheter among adult patients: A systematic review and meta-analysis',
+  'resource4_title' => 'Heparin flush vs. normal saline flush to maintain the patency of central venous catheter among adult patients: A systematic review and meta-analysis',
+  'resource5_title' => 'International experts consensus on optimal central vascular access device selection and management for patients with cancer',
+  'resource6_title' => 'A GAVeCeLT consensus on the indication, insertion, and management of central venous access devices in the critically ill',
+  'resource7_title' => 'The pediatric DAV-expert algorithm: A GAVeCeLT/GAVePed consensus for the choice of the most appropriate venous access device in children',
+  'resource8_title' => 'The pediatric DAV-expert algorithm: A GAVeCeLT/GAVePed consensus for the choice of the most appropriate venous access device in children',
+  'resource9_title' => 'The SIP protocol update: Eight strategies, incorporating Rapid Peripheral Vein Assessment (RaPeVA), to minimize complications associated with peripherally inserted central catheter insertion',
+  'resource10_title' => 'The neonatal DAV-expert algorithm: a GAVeCeLT/GAVePed consensus for the choice of the most appropriate venous access in newborns',
+
+  'more_information' => 'More Information',
+
+  'publications_title' => 'Medicus Bonus publications', 
 );
