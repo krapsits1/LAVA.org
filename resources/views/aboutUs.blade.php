@@ -73,7 +73,7 @@
             
             <!-- Mission Statement -->
             <h2 class="text-center mb-5">
-                {{ __("messages.about_mission") }}
+                <span class="fw-bold">{{ __("messages.about_mission") }}</span>{{ __("messages.about_mission2") }}
             </h2>
             
             <!-- Team Section -->
@@ -89,10 +89,10 @@
                         </div>
                         <div class="card-body text-center">
                             <h3 class="card-title">
-                                {{ __("messages.about_team_ivars_name") }}
+                                {{ __("messages.about_team_ivars_name") }}{{ __("messages.about_team_ivars_role") }} 
                             </h3>
                             <h5 class="card-text text-muted">
-                                {{ __("messages.about_team_ivars_role") }}
+                                {{ __("messages.about_team_ivars_role2") }}
                             </h5>
                         </div>
                     </div>
@@ -109,10 +109,11 @@
                         </div>
                         <div class="card-body text-center">
                             <h3 class="card-title">
-                                {{ __("messages.about_team_linda_name") }}
+                            {{ __("messages.about_team_linda_name") }} {{ __("messages.about_team_linda_role") }}
+
                             </h3>
                             <h5 class="card-text text-muted">
-                                {{ __("messages.about_team_linda_role") }}
+                                {{ __("messages.about_team_linda_role2") }}
                             </h5>
                         </div>
                     </div>
@@ -129,10 +130,11 @@
                         </div>
                         <div class="card-body text-center">
                             <h3 class="card-title">
-                                {{ __("messages.about_team_ieva_name") }}
+                                {{ __("messages.about_team_ieva_name") }} {{ __("messages.about_team_ieva_role") }}
+
                             </h3>
                             <h5 class="card-text text-muted">
-                                {{ __("messages.about_team_ieva_role") }}
+                                {{ __("messages.about_team_ieva_role2") }}
                             </h5>
                         </div>
                     </div>
@@ -155,6 +157,16 @@
                         <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
                             <div class="fs-5 accordion-body">
                                 {{ __('messages.faq_item1_answer') }}
+                                <br>
+                                {{ __('messages.faq_item1_answer2') }}
+                                <br>
+                                <ol>
+                                    <li>{{ __('messages.faq_item1_answer3') }}</li>
+                                    <li>{{ __('messages.faq_item1_answer4') }}</li>
+                                    <li>{{ __('messages.faq_item1_answer5') }}</li>
+                                    <li>{{ __('messages.faq_item1_answer6') }}</li>
+                                </ol>
+                                {{ __('messages.faq_item1_answer7') }}
                             </div>
                         </div>
                     </div>
@@ -169,20 +181,9 @@
                         <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
                             <div class="fs-5 accordion-body">
                                 {{ __('messages.faq_item2_answer') }}
-                            </div>
-                        </div>
-                    </div>
-        
-                    <!-- FAQ Item 3 -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="faqHeading3">
-                            <button class="fs-4 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                {{ __('messages.faq_item3_question') }}
-                            </button>
-                        </h2>
-                        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
-                            <div class="fs-5 accordion-body">
-                                {{ __('messages.faq_item3_answer') }}
+                                <br>
+                                {{ __('messages.faq_item2_answer2') }}
+
                             </div>
                         </div>
                     </div>

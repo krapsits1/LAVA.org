@@ -139,6 +139,21 @@
                         </div>
                     </div>
                 </div>
+                <section class="py-5">
+                    <div class="container text-center">
+                        <p class="lead mb-4">
+                            <span class="fw-bold">
+                            {{ __('messages.join_lava_description1') }}
+                            </span>
+                            {{ __('messages.join_lava_description2') }} 
+                            <span class="fw-bold">
+                            {{ __('messages.join_lava_description3') }}
+                            </span>
+                            {{ __('messages.join_lava_description4') }}
+
+                        </p>
+                        
+                </section>
             </div>
             
         </main>
