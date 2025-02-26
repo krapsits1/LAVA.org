@@ -9,7 +9,7 @@
         <main style="min-height: 80vh;">
             <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
                 <div class="container">
-                    <h1>{{ __('messages.privacy_title') }}</h1>
+                    <h1 class="pt-5">{{ __('messages.privacy_title') }}</h1>
                     <p>{{ __('messages.privacy_effective_date') }} {{ date('F d, Y') }}</p>
             
                     <h2>{{ __('messages.privacy_section1_title') }}</h2>
