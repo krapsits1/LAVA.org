@@ -11,7 +11,7 @@ Route::get('/information', [App\Http\Controllers\InformationController::class, '
 Route::get('/news', [App\Http\Controllers\NewsController::class, 'news'])->name('news');
 Route::get('/instructions', [App\Http\Controllers\InstructionsController::class, 'instructions'])->name('instructions');
 Route::get('/resources', [App\Http\Controllers\ResourcesController::class, 'resources'])->name('resources');
-Route::get('/publications', [App\Http\Controllers\PublicationsController::class, 'publications'])->name('publications');
+Route::get('/publications{any?}', [App\Http\Controllers\PublicationsController::class, 'publications'])->name('publications');
 
 Route::get('/join', [App\Http\Controllers\JoinController::class, 'join'])->name('join');
 Route::post('/join/send', [App\Http\Controllers\JoinController::class, 'sendMessage'])->name('sendMessage')->middleware('throttle:5,1');
