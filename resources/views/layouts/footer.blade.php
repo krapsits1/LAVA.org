@@ -7,7 +7,9 @@
     </div>
     <span class="fs-6 text-white">&copy; {{ date('Y') }} LAVA, Inc</span>
     <div class="nav-link me-3" style="width: 80px; text-align: center;">
-        <i data-bs-toggle="modal" data-bs-target="#cookieModal" class="bi bi-cookie text-white fs-2 me-2"></i>
+    
+        <i data-bs-toggle="modal" data-bs-target="#cookieModal" class="bi bi-cookie text-white fs-2 me-2" style="cursor: pointer;"></i>
+      
         <a href="https://www.facebook.com/people/LAVA-Latvijas-AsinsVadu-Asoci%C4%81cija/61566301665761/" target="_blank">
             <i class="bi bi-facebook text-white fs-2"></i>
         </a>
