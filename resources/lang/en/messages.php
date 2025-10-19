@@ -148,13 +148,15 @@ return array (
 
   'title' => 'News',
 
-  'news1_title' => '22.02.2025 – Linda Frīdenberga will share her findings on the vascular device audit conducted at the Children\'s Clinical University Hospital at the conference “New Developments and Future Solutions in the Profession of Anesthesia and Intensive Care Nursing” organized by LMa AINA.',
+  'news1_title' => '28-30.10.2025 and 4-6.11.2025 - Master classes in different groups.',
   'news1_link' => 'More information',
 
-  'news2_title' => '14-15.03.2025 – In the RSU professional development program, Dr. Ivars Veģeris and Ansis Ziemelis will provide insights on the topic “Long-term Catheter Insertion”',
+  'news2_title' => '31.10.2025 - Students day at LU.',
+  'news2_1_title' => 'Conference at LU House of Nature, 3 Jelgavas Street, Riga. 01.11.2025 from 8:30-18:00. Follow updates on social media – LAVA and the Children’s Clinical University Hospital Facebook and other channels!',
+  'news2_2_title' => 'The forum and conference are being implemented as part of the National Health Service (NHS) project "Healthcare Service Models Development Laboratory" pilot project "Piloting Innovative and Modern Vascular Access at CCUH". The forum and conference are organized in collaboration between the Children\'s Hospital, University of Latvia and LAVA, with events included in GloVANet regional activities.',
   'news2_link' => 'Download the program',
 
-  'news3_title' => '21.03.2025 – The vascular team instructor at BKUS will conduct a training course on “Extended Peripheral Catheter Insertion under USG control.”',
+  'news3_title' => '15–17.04.2026 – The 9th WoCoVA conference at the Valencia Congress Centre (VCC), Valencia, Spain. Follow updates on social media and official channels for more information!',
   'news3_description' => 'The training is implemented within the framework of the NVD Innovation Laboratory project at the Children’s Clinical University Hospital.',
 
   'news4_title' => '23-26.05.2025 – NOPHO NOBOS 2025 Annual Meeting in Riga. NOBOS education session. Ivars Vegeris “The right catheter for the right patient” (23.05.2025)',
