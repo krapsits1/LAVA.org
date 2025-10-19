@@ -147,12 +147,14 @@ return [
     
     'title' => 'Aktualitātes',
 
-    'news1_title' => '22.02.2025. – Linda Frīdenberga LMa AINA organizētajā konferencē “Jaunumi un nākotnes risinājumi Anestēzijas un Intensīvās terapijas māsu profesijā” dalīsies ar secinājumiem veicot Asinsvadu ierīču auditu Bērnu klīniskajā universitātes slimnīcā.',
+    'news1_title' => '28.-30.10.2025 un 4.-6.11.2025 - Meistarklases dažādās grupās.',
     'news1_link' => 'Vairāk Informācijas',
 
-    'news2_title' => '14.-15.03.2025. – RSU profesionālās pilnveides programmā dr. Ivars Veģeris un Ansis Ziemelis sniegs ieskatu tēmā “Ilgtermiņa katetru ievietošana”',
+    'news2_title' => '31.10.2025 - Studentu diena LU.',
+    'news2_1_title' => 'Konference LU Dabas mājā, Jelgavas ielā 3, Rīga. 01.11.2025. no plkst 8.30-18.00. Sekojiet informācijai sociālajos medijos - LAVA un Bērnu klīniskās universitātes slimnīcas FB un citos kanālos!',
+    'news2_2_title' => 'Forums un konference tiek īstenota Nacionālā veselības dienesta (NVD) projekta “Veselības aprūpes pakalpojumu modeļu attīstības laboratorija” pilotprojektā “Inovatīvu un mūsdienīgu asinsvadu pieeju pilotēšana BKUS”. Forums un konference tiek organizēta sadarbojoties Bērnu slimnīcai, Latvijas Universitātei un LAVA, pasākumi iekļauti GloVANet reģionālajās aktivitātēs.',
 
-    'news3_title' => '21.03.2025. BKUS Asinsvadu komandas mācībspēks realizēs apmācību kursu “Pagarinātā perifērā katetra ievietošana USG kontrolē”.',
+    'news3_title' => '15.–17.04.2026 – Devitā WoCoVA konference Valensijā, Spānijā, Valensijas kongresu centrā (VCC). Sekojiet jaunumiem sociālajos medijos un oficiālajos kanālos!',
     'news3_description' => 'Mācības tiek realizētas NVD Inovāciju laboratorijas projekta ietvaros Bērnu klīniskajā universitātes slimnīcā.',
 
     'news4_title' => '23.-26.05.2025. NOPHO NOBOS 2025 Annual meeting Riga. NOBOS education session. Ivars Vegeris “The right catheter for the right patient” (23.05.2025)',
